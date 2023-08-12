@@ -5,7 +5,7 @@ if (isset($_POST['submit'])) {
     $username = $_POST['username'];
 
     // Set a cookie named "username" with the input value
-    setcookie("username", $username, time() + (86400 * 30), "/"); // Cookie expires in 30 days
+    setcookie("username", $username, time() + (86400 * 30), "/"); // Cookie expires in 30 days 
 }
 
 // Check if the cookie is set
